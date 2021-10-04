@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
 import Home from "./Home"
 import About from "./About"
 import Projects from './Projects'
+import "../components/css/page.css"
 
 
 const Portfolio = () => {
