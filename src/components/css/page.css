@@ -1,5 +1,5 @@
 .page-body {
-    padding: 0px 180px;
+    padding: 50px 180px;
     line-height: 1.6;
     font-size: 1em;
     color: #8ecae6;
@@ -9,8 +9,17 @@ h2 {
     padding: 20px 0px 0px 0px;
     text-align: center;
     color: #ce4257;
+    text-transform: uppercase
 }
 
 .list-bullet > li{
     list-style-type: circle; ;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 100px;
+    padding-bottom: 40px;
 }
