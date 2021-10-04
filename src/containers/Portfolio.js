@@ -1,15 +1,16 @@
 import "../components/css/nav.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
+import Home from "./Home"
+import About from "./About"
+import Projects from './Projects'
+
 
 const Portfolio = () => {
 	return (
 		<>
 			<Router>
-
 				<div id="nav-bar">
-
-
 					<div id="nav-bar-left">
 						<li className="nav-bar-item-left">
 							<Link className="nav-bar-link"
@@ -41,9 +42,14 @@ const Portfolio = () => {
 							</Link>
 						</li>
 					</div>
+				</div>
 
-
-
+				<div>
+					<Switch>
+						<Route exact path="/" component={Home} />
+						<Route exact path="/about" component={About} />
+						<Route exact path="/projects" component={Projects} />
+					</Switch>
 				</div>
 			</Router>
 		</>
