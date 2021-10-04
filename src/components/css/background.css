@@ -1,0 +1,8 @@
+body {
+    margin: 0px;
+    background: url('../images/background.jpg');
+    background-color: fade(#FFFFFF, 50%);
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-size: contain, cover;
+}
