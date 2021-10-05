@@ -13,12 +13,12 @@ const Portfolio = () => {
 			<Router>
 				<div id="nav-bar">
 					<div id="nav-bar-left">
-						<li className="nav-bar-item-left">
+						<li className="nav-bar-item">
 							<Link className="nav-bar-link"
 								to={{ pathname: "https://www.linkedin.com/in/robert-hollingworth/" }}
 								target="_blank" > LinkedIn </Link>
 						</li>
-						<li className="nav-bar-item-left">
+						<li className="nav-bar-item">
 							<Link className="nav-bar-link"
 								to={{ pathname: "https://github.com/robbobby" }}
 								target="_blank" > GitHub </Link>
@@ -27,17 +27,17 @@ const Portfolio = () => {
 
 
 					<div id="nav-bar-right">
-						<li className="nav-bar-item-right">
+						<li className="nav-bar-item">
 							<Link className="nav-bar-link" to="/">
 								Home
 							</Link>
 						</li>
-						<li className="nav-bar-item-right">
+						<li className="nav-bar-item">
 							<Link className="nav-bar-link" to="/about">
 								About
 							</Link>
 						</li>
-						<li className="nav-bar-item-right">
+						<li className="nav-bar-item">
 							<Link className="nav-bar-link" to="/projects">
 								Projects
 							</Link>
