@@ -13,8 +13,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "aws s3 sync build/ s3://portfolio-bucket-rjh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
