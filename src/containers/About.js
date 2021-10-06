@@ -6,7 +6,7 @@ const About = () => {
             An enthusiastic Software Developer, with a passion for solving problems through technology and creative collaboration.
             My background in construction as a structural technician motivated me to retrain myself as a Software Engineer, as both fields require thought and resourcefulness when designing and implementing plans.
             < p >
-                The industries seem a contrast, but my passion in them is the same.Building.Which led me to CodeClan where through collaboration, a diverse set of tutors and colleagues reinforced the value of approaching problems from many angles.
+                The industries seem a contrast, but my passion in them is the same. Building. Which led me to CodeClan where through collaboration, a diverse set of tutors and colleagues reinforced the value of approaching problems from many angles.
             </p >
 
             <h2>Code Clan Studies</h2>

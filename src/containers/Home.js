@@ -9,9 +9,9 @@ const Home = () => {
                 <div className="column">
                     <div className="row">
                         <div className="home-para">
-                            <p>Hello! My name is Robert and welcome to my portfolio website, over the past year I have
-                                undertaken a career transformation into software development please take a look around at my projects and work. <br />
-                                Please bear in mind this site is still under construction</p>
+                            <p>Hello! My name is Robert and welcome to my portfolio website. <br /> Over the past year I have
+                                undertaken a career transformation into software development. Please take a look around at my projects and work. <br /><br />
+                                Please bear in mind this site is still under construction.</p>
                         </div>
                         <div class="container">
                             <img src={DeskImage} className="home-image" />
