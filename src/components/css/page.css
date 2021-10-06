@@ -130,3 +130,23 @@ h4 {
 	top: 0px;
 	box-shadow: inset 0px 0px 10px 20px black;
 }
+
+.project-github-image {
+    margin: 5px;
+    text-decoration: none;
+    opacity: 0.8;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-github-image:hover {
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+  opacity: 1;
+}
+
+.project-github-image:not(:hover) {
+  transition-duration: 0.4s;
+}
