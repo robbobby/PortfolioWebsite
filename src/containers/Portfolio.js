@@ -1,6 +1,6 @@
 import "../components/css/nav.css";
 import React from "react";
-import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Link, Route, Redirect } from "react-router-dom";
 import Home from "./Home"
 import About from "./About"
 import Projects from './Projects'
@@ -47,7 +47,10 @@ const Portfolio = () => {
 
 				<div>
 					<Switch>
-						<Route exact path="/" component={Home} />
+						<Route exact path="/">
+							<Redirect to="/home" />
+						</Route>
+						<Route exact path="/home" component={Home} />
 						<Route exact path="/about" component={About} />
 						<Route exact path="/projects" component={Projects} />
 					</Switch>

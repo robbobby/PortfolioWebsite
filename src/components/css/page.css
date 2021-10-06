@@ -84,3 +84,49 @@ h4 {
   padding-top: 30px;
   font-size: 0.85em;
 }
+
+.home {
+  padding: 50px 100px;
+}
+
+.home-para {
+  max-width: 50%;
+}
+
+.home-image {
+  width: 100%;
+  width: 500px;
+  height: auto;
+  display: flex;
+  border-radius: 10%;
+  color: inherit;
+  box-shadow: inset 0px 0px 10px 20px white;
+}
+
+.grad1 {
+  height: 200px;
+  width: 400px;
+  object-fit: contain;
+  background-image: url(../images/Desk.jpeg)
+}
+
+
+.gradup {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(transparent 40%, black 70%); /* Set radial-gradient to faded edges */
+}
+
+.container {
+	margin: auto;
+	width: 200px;
+	position: relative;
+}
+
+.block {
+	width: 500px;
+	position: absolute;
+	bottom: 0px;
+	top: 0px;
+	box-shadow: inset 0px 0px 10px 20px black;
+}

@@ -1,4 +1,5 @@
 import CosmodexImage from "../components/images/CosemodexSS.jpg";
+import EmeraldImage from "../components/images/MirEmerald.jpg";
 
 const Projects = () => {
     return (
@@ -25,11 +26,15 @@ const Projects = () => {
 
             <div className="row">
                 <div className="column-right, project-description">
-                    <p>Project Manager coming shortly</p>
+                    <p>This is an open source project I did some work on, it is a re-creation of a game that was closed some time ago. <br />
+                        It uses a pervious version of a different games networking and engine and uses Unity more for the graphical engine.<br />
+                        The project has multiple developers and graphical eningeers working on it which I have been proud to contribute to.</p>
+                    <h4>Tech Stack</h4>
+                    Unity, C#
                 </div>
                 <div>
-                    <h4>Project Manager</h4>
-                    <img src={CosmodexImage} className="website-screenshot" />
+                    <h4>Mir Emerald - Open Source MMORPG</h4>
+                    <img src={EmeraldImage} className="website-screenshot" />
                 </div>
             </div>
 
@@ -46,6 +51,17 @@ const Projects = () => {
                     </p>
                 </div>
             </div>
+
+            <div className="row">
+                <div className="column-right, project-description">
+                    <p>Project Manager coming shortly</p>
+                </div>
+                <div>
+                    <h4>Project Manager</h4>
+                    <img src={CosmodexImage} className="website-screenshot" />
+                </div>
+            </div>
+
         </div >
     )
 }
